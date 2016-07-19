@@ -27,6 +27,7 @@
       the number of columns),
     \code{center_ssqNm1} - center and scale (sum of squred values equals 
       the number of columns - 1)
+    MFA corresponds to "proc.row=center_ssq1" and 'w.data="lambda1"'
   }
   \item{w.data}{
     The weights of each separate dataset, should be one of 
@@ -43,7 +44,6 @@
     the length of which should be the same with the number of rows of 
     each dataset to indicated the weight of rows of datasets.
   }
-
   \item{statis}{
     A logical indicates whether STATIS method should be used. See details.
   }
@@ -67,7 +67,6 @@
 
 \references{
     Herve Abdi, Lynne J. Williams, Domininique Valentin and Mohammed Bennani-Dosse. STATIS and DISTATIS: optimum multitable principal component analysis and three way metric multidimensional scaling. WIREs Comput Stat 2012. Volume 4, Issue 2, pages 124-167
-
     Herve Abdi, Lynne J. Williams, Domininique Valentin. Multiple factor analysis: principal component analysis for multitable and multiblock data sets. WIREs Comput Stat 2013
 }
 
